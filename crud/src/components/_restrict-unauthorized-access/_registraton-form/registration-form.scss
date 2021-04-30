@@ -1,0 +1,30 @@
+.register-form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    max-width: 20%;
+    width: 10vw;
+
+    fieldset {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        border: 0;
+        padding: 0;
+    }
+
+    .bottom-row {
+        display: flex;
+        justify-content:space-between;
+        
+        .button-holder {
+            max-width: 5.4em;
+            padding-left: 0.5em;
+        }
+    }
+
+    .error-holder {
+        text-align: start;
+        color: rgb(199, 45, 45);
+    }
+}

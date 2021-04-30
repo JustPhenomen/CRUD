@@ -1,0 +1,41 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    float: left;
+
+    fieldset {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        border: 0;
+        padding: 0;
+
+        label {
+            font-size: smaller;
+            display: flex;
+            justify-content: left;
+            flex-direction: column;
+        }
+
+        input {
+            width: 100%;
+            border: 0;
+            border-bottom: 1px solid black;
+            outline: none;
+        }
+    }
+
+    .bottom-row {
+        display: flex;
+        justify-content: flex-start;
+
+        .button-holder {
+            padding-top: 0.6em;
+            width: 60%;
+            
+            button {
+                width: 90%;
+            }
+        }
+    }
+}

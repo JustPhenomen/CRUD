@@ -1,0 +1,26 @@
+.restrict-unauthorized-access {
+    display: flex;
+    flex-direction: column;
+    float: left;
+    max-width: 20%;
+
+    .form-holder {
+        display: flex;
+        float: left;
+        flex-direction: column;
+        border: 0;
+    }
+
+    .auth-link {
+        padding-top: 0.5em;
+        color: rgb(62, 95, 134);
+        text-decoration: underline;
+        text-align: left;
+        padding-left: 4%;
+    }
+
+    .auth-link:hover {
+        cursor: pointer;
+        color: rgb(139, 53, 139);
+    }
+}
